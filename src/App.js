@@ -1,8 +1,14 @@
 import react from "react";
 import AboutUs from "./pages/AboutUs";
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
-    return <AboutUs />;
+    return (
+        <div className="app">
+            <GlobalStyle />
+            <AboutUs />
+        </div>
+    );
 }
 
 export default App;

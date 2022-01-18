@@ -44,7 +44,7 @@ export default function ServicesSection() {
                 </div>
             </div>
             <div className="image">
-                <img src={home2} alt="image 2" />
+                <img src={home2} alt="Camera" />
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import home1 from "../img/home1.png";
 
 export default function AboutSection() {
     return (
-        <div>
+        <div className="about">
             <div className="disctiption">
                 <div className="title">
                     <div className="hide">

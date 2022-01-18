@@ -1,11 +1,8 @@
 import react from "react";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
-    return (
-        <div className="App">
-            <h1>FILM</h1>
-        </div>
-    );
+    return <AboutUs />;
 }
 
 export default App;
